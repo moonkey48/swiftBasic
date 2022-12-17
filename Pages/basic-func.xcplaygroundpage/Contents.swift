@@ -8,10 +8,12 @@ func func2(a: Int = 1, b: Int = 2) {
 }
 func2(a:4)
 
-func helloFriends(friends: String...) {
-    print("hello \(friends)")
+func sendMoney(friends: String...) {
+    print("I send money to \(friends)")
 }
-helloFriends(friends: "austin", "moonkey", "lizzy")
+
+var sendMoneyInst: (String...) -> Void = sendMoney(friends:)
+sendMoneyInst("austin", "hi")
 
 
 
