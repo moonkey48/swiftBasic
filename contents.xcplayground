@@ -10,5 +10,7 @@
         <page name='students'/>
         <page name='basic-enum'/>
         <page name='basic-structNclass'/>
+        <page name='basic-condition'/>
+        <page name='basic-closure'/>
     </pages>
 </playground>
