@@ -17,5 +17,11 @@ sendMoneyInst("austin", "hi")
 
 
 
-
-
+func sugarGenerator() -> () -> String {
+    func basicSugar() -> String{
+        return "basic sugar"
+    }
+    return basicSugar
+}
+let basicSugar = sugarGenerator()
+basicSugar()
