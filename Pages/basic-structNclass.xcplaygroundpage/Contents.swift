@@ -22,3 +22,40 @@ classInst2.property = 2
 //같은 값이 나온다. 주소 값을 복사했기 때문에!
 print("classInst1 property = \(classInst1.property)")
 print("classInst2 property = \(classInst2.property)")
+
+
+class Dog {
+    var name: String?
+    var age: Int?
+    
+    func simpleDescription() -> String {
+        if let name = self.name {
+            return "dog \(name)"
+        } else {
+            return "No dog name"
+        }
+    }
+}
+struct Coffee {
+    var name: String?
+    var size: String?
+    
+    func simpleDescription() -> String {
+        if let name = self.name {
+            return "coffee \(name)"
+        } else {
+            return "no coffee name"
+        }
+    }
+}
+
+var myDog = Dog()
+
+myDog.age = 3
+print(myDog.simpleDescription())
+
+var coffee = Coffee()
+coffee.name = "아아"
+coffee.size = "tall"
+
+print(coffee.simpleDescription())

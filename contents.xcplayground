@@ -12,5 +12,8 @@
         <page name='basic-structNclass'/>
         <page name='basic-condition'/>
         <page name='basic-closure'/>
+        <page name='basic-closure-use'/>
+        <page name='basic-property'/>
+        <page name='basic-tuple'/>
     </pages>
 </playground>
