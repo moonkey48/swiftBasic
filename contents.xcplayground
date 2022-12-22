@@ -15,5 +15,6 @@
         <page name='basic-closure-use'/>
         <page name='basic-property'/>
         <page name='basic-tuple'/>
+        <page name='basic-protocol'/>
     </pages>
 </playground>
