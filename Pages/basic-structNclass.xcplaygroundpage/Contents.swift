@@ -59,3 +59,24 @@ coffee.name = "아아"
 coffee.size = "tall"
 
 print(coffee.simpleDescription())
+
+class Person {
+    var name: String
+    init(name: String){
+        self.name = name
+    }
+    func printName(){
+        print("\(name) is my name")
+    }
+}
+class Student: Person {
+    init(studentName: String){
+        super.init(name: studentName)
+    }
+    func goToSchool(){
+        print("go to school")
+    }
+}
+var moon: Student = Student(studentName: "austin")
+moon.goToSchool()
+moon.printName()
