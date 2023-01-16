@@ -80,3 +80,16 @@ class Student: Person {
 var moon: Student = Student(studentName: "austin")
 moon.goToSchool()
 moon.printName()
+
+
+class CloudCodeExecutor {
+    static let sharedInstance = CloudCodeExecutor()
+    
+    init(){
+        print("CloudCodeExecutor has been iniitalized")
+    }
+    
+    func processCloudCodeOperation(){
+        print("hello")
+    }
+}
