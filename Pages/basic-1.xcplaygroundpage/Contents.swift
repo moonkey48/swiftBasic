@@ -40,3 +40,25 @@ enum ShoolDetail {
 }
 let myMiddleSchoolName = SchoolDetail.middle(name: 'jeju school')
 print("middleSchool is \(myMiddleShoolName.get())")
+
+
+for i in 0...5 {
+    print("print \(i)")
+}
+
+for i in 0..<5 {
+    print("print \(i)")
+}
+
+for i in 0..<5 where i % 2 === 0 {
+    print("print \(i)")
+}
+
+var randomInts: [Int] = []
+//i가 사용되지 않는 경우 _ 언더바로 사용한다.
+for _ in 0..<25{
+    let randomNumber = Int.random(in: 0...100)
+    randomInts.append(randomNumber)
+}
+print("randomInts: \(randomInts)")
+
