@@ -16,6 +16,7 @@
         <page name='basic-property'/>
         <page name='basic-tuple'/>
         <page name='basic-protocol'/>
-        <page name='basics'/>
+        <page name='basic-operators'/>
+        <page name='basic-StringNCharacters'/>
     </pages>
 </playground>

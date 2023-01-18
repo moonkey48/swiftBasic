@@ -17,7 +17,7 @@ enum School {
 }
 
 let mySchool = School.elementary
-print("mySchool is \(myShool)")
+print("mySchool is \(mySchool)")
 
 enum Grade: Int {
     case first = 1
