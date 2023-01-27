@@ -18,5 +18,7 @@
         <page name='basic-protocol'/>
         <page name='basic-operators'/>
         <page name='basic-StringNCharacters'/>
+        <page name='basic-optional'/>
+        <page name='basic-propertyUse'/>
     </pages>
 </playground>

@@ -25,3 +25,16 @@ func sugarGenerator() -> () -> String {
 }
 let basicSugar = sugarGenerator()
 basicSugar()
+
+
+func greeting(to friend: String,from me: String){
+    print("Hello \(friend), I'm \(me)")
+}
+
+var someFunction: (String, String) -> Void = greeting(to:from:)
+someFunction("eric", "austin")
+
+func thunk(callback: (String, String)->Void){
+    callback("jenny", "mike")
+}
+thunk(callback: greeting)

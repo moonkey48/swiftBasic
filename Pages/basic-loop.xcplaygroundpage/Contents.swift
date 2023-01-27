@@ -8,3 +8,14 @@ for integer in integers {
 for (name, age) in people {
     print("\(name):\(age)")
 }
+for i in 1...10{
+    print(i)
+}
+
+//while condition {
+//    //
+//}
+//
+//repeat {
+//    //
+//} while condition
