@@ -22,5 +22,6 @@
         <page name='basic-propertyUse'/>
         <page name='basic-assert'/>
         <page name='advanced-protocol'/>
+        <page name='basic-error'/>
     </pages>
 </playground>
