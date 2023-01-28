@@ -23,5 +23,6 @@
         <page name='basic-assert'/>
         <page name='advanced-protocol'/>
         <page name='basic-error'/>
+        <page name='basic-higherOrderFunc'/>
     </pages>
 </playground>
