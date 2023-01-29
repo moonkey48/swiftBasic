@@ -24,5 +24,6 @@
         <page name='advanced-protocol'/>
         <page name='basic-error'/>
         <page name='basic-higherOrderFunc'/>
+        <page name='advanced-protocol-examples'/>
     </pages>
 </playground>

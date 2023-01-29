@@ -36,6 +36,8 @@ someAny = sup
 if let someReadable: Readable = someAny as? Readable {
     someReadable.read()
 }
+someAny as? Readable
+
 if let someReadSpeakable: ReadSpeakable = someAny as? ReadSpeakable {
     someReadSpeakable.speak()
 }
