@@ -27,5 +27,7 @@
         <page name='advanced-protocol-examples'/>
         <page name='advanced-enum'/>
         <page name='advanced-patterns'/>
+        <page name='basic-subscript'/>
+        <page name='basic-inheritance'/>
     </pages>
 </playground>
