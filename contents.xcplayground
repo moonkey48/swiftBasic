@@ -25,5 +25,7 @@
         <page name='basic-error'/>
         <page name='basic-higherOrderFunc'/>
         <page name='advanced-protocol-examples'/>
+        <page name='advanced-enum'/>
+        <page name='advanced-patterns'/>
     </pages>
 </playground>
