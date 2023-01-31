@@ -31,5 +31,7 @@
         <page name='basic-inheritance'/>
         <page name='basic-initializer'/>
         <page name='basic-deinitializer'/>
+        <page name='basic-optional-chaining'/>
+        <page name='basic-generics'/>
     </pages>
 </playground>
