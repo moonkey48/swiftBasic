@@ -58,6 +58,7 @@ for item in breakfastList {
 }
 
 
+//실패 가능한 초기자
 struct Animal {
     let species: String
     init?(species: String){
@@ -67,3 +68,49 @@ struct Animal {
 }
 let someCreature: Animal? = Animal(species: "horse")
 
+enum TemperatureUnit: Character {
+    case kelvin = "K", celsius = "C", fahrenheit = "F"
+}
+
+let fahrenheitUnit = TemperatureUnit(rawValue: "F")
+if fahrenheitUnit != nil {
+    print("This is a defined temperature unit, so initialization succeeded.")
+}
+// Prints "This is a defined temperature unit, so initialization succeeded."
+
+let unknownUnit = TemperatureUnit(rawValue: "X")
+if unknownUnit == nil {
+    print("This is not a defined temperature unit, so initialization failed.")
+}
+// Prints "This is not a defined temperature unit, so initialization failed."
+
+
+//실패 가능한 초기자의 오버라이드
+class Document {
+    var name: String?
+    init(){}
+    init?(name: String){
+        if name.isEmpty {return nil}
+        self.name = name
+    }
+}
+class AutomaicallyNamedDocument: Document {
+    override init(){
+        super.init()
+        self.name = "[Unnamed]"
+    }
+    override init(name: String){
+        super.init()
+        if name.isEmpty {
+            self.name = "[Unnamed]"
+        } else {
+            self.name = name
+        }
+    }
+}
+
+class UntitledDocument: Document {
+    override init(){
+        super.init(name: "Untitled")!
+    }
+}
