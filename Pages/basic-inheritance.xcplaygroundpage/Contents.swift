@@ -14,3 +14,24 @@ class Bicycle: Vehicle {
 var bicycle = Bicycle()
 bicycle.hasBucket = true
 
+class Car: Vehicle {
+    var gear: Int = 1
+    override var description: String {
+        return super.description + "by gear \(gear)"
+    }
+}
+let car = Car()
+car.description
+
+class AutomaicCar: Car {
+    override var currentSpeed: Double {
+        didSet {
+            gear = Int(currentSpeed / 10.0) + 1
+        }
+    }
+}
+let autoCar = AutomaicCar()
+autoCar.currentSpeed = 40
+autoCar.gear
+
+
