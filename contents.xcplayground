@@ -30,5 +30,6 @@
         <page name='basic-subscript'/>
         <page name='basic-inheritance'/>
         <page name='basic-initializer'/>
+        <page name='basic-deinitializer'/>
     </pages>
 </playground>
