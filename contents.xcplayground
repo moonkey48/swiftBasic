@@ -33,5 +33,7 @@
         <page name='basic-deinitializer'/>
         <page name='basic-optional-chaining'/>
         <page name='basic-generics'/>
+        <page name='basic-associatedtypes'/>
+        <page name='advanced-ARC'/>
     </pages>
 </playground>
